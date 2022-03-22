@@ -21,8 +21,8 @@ WORKDIR /tmp/pele-master
 RUN python setup.py build --fcompiler=gfortran \
 	&& python setup.py install --user
 
-RUN rm -r /tmp/* \
-	&& groupadd pele \
-	&& useradd --shell /bin/bash -g pele pele
+RUN rm -r /tmp/* 
+#	&& groupadd pele \
+#	&& useradd --shell /bin/bash -g pele pele
 
-USER pele
+#USER pele
