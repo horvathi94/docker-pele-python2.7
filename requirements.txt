@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+networkx
+sqlalchemy
+pyro4
+brewer2mpl
+cython
